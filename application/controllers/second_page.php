@@ -11,7 +11,7 @@ class Second_page extends CI_Controller {
   public function index() 
   { 
     print"hi";
-    $this->load->view('index',$this->data);
+    $this->load->view('index',$this->data);   
   }
 
   
